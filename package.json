@@ -1,0 +1,20 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon --exec cy-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@naughty/cy-node": "^1.0.12",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mockjs": "^1.1.0",
+    "mongodb": "^3.5.8",
+    "nodemon": "^2.0.4"
+  }
+}
